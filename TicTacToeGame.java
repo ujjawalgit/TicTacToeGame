@@ -27,7 +27,7 @@ public class TicTacToeGame {
     }
 
     public static void main(String[] args) {
-        char[] board = createBoard(); /*createBoard method will create board with empty spaces*/
+        board = createBoard(); /*createBoard method will create board with empty spaces*/
         System.out.print("choose your letter(X or O):");
         playerLetter = chooseYourLetter(); /* selecting letter for player*/
         computerLetter = playerLetter == 'X' ? 'O' : 'X';/*if player has got X then computer will get O & vice-versa*/
